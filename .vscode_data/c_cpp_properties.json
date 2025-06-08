@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "mcu",
+            "includePath": [
+                "${env:KEIL5_PATH}/ARM/ARMCLANG/include",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "__CC_ARM",
+                "__INT64_TYPE__=long",
+                "__ARMCC_VERSION=6010050",
+                "__weak=",
+                "USE_HAL_DRIVER",
+                "STM32F446xx",
+                "_DEBUG",
+                "USE_FULL_ASSERT"
+            ],
+            "compilerPath": "",
+            "cStandard": "c99",
+            "cppStandard": "c++11"
+        }
+    ],
+    "version": 4
+}
